@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pizza Paradise CLI</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span class="pizza-icon">🍕</span>
+        <h1>Pizza Paradise</h1>
+      </div>
+    </header>
+    
+    <main>
+      <div class="hero">
+        <h2>Pizza Paradise CLI</h2>
+        <p>Order your perfect pizza for your next meetup with our command-line interface.</p>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-header">
+          <span class="terminal-title">Pizza Paradise CLI</span>
+          <p class="terminal-subtitle">Order your pizza using command-line interface</p>
+        </div>
+        <div class="terminal-body">
+          <div class="command-line">
+            <span class="prompt">🍕</span>
+            <span class="text">Welcome to Pizza Paradise CLI v1.0.0</span>
+          </div>
+          <div class="command-line">
+            <span class="text">Type 'help' to see available commands.</span>
+          </div>
+          <div class="command-line">
+            <span class="text">Start your order with "order pizza".</span>
+          </div>
+          <div class="command-line">
+            <span class="prompt">$</span>
+            <input type="text" id="cli-input" placeholder="Type your command..." autofocus>
+          </div>
+        </div>
+      </div>
+
+      <div class="hints">
+        <p>Hint: Type <code>help</code> to see available commands.</p>
+        <p>Start your order with <code>order pizza</code> or type <code>form</code> to scroll to the form below.</p>
+      </div>
+    </main>
+  </body>
+</html>

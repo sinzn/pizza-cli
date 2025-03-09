@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Order Tracking - Pizza Paradise</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="tracking.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span class="pizza-icon">🍕</span>
+        <h1>Pizza Paradise</h1>
+      </div>
+    </header>
+    
+    <main>
+      <div class="tracking-container">
+        <h2>Order Tracking</h2>
+        <div class="order-status">
+          <div class="status-step active">
+            <div class="status-icon">📋</div>
+            <p>Order Received</p>
+          </div>
+          <div class="status-line"></div>
+          <div class="status-step">
+            <div class="status-icon">👨‍🍳</div>
+            <p>Preparing</p>
+          </div>
+          <div class="status-line"></div>
+          <div class="status-step">
+            <div class="status-icon">🚗</div>
+            <p>Out for Delivery</p>
+          </div>
+          <div class="status-line"></div>
+          <div class="status-step">
+            <div class="status-icon">✅</div>
+            <p>Delivered</p>
+          </div>
+        </div>
+        <div class="order-details">
+          <h3>Order Details</h3>
+          <p id="orderId"></p>
+          <p id="orderType"></p>
+          <p id="orderSize"></p>
+          <p id="orderPrice"></p>
+        </div>
+        <a href="/" class="back-button">Back to Home</a>
+      </div>
+    </main>
+  </body>
+</html>
